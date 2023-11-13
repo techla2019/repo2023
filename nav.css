@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(241, 238, 238);
+}
+.stik{
+    height: 50px;
+    width: 1px;
+    background-color: wheat;
+}
+.logo{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items:center ;
+}
+.name{
+    font-size: 1.5rem;
+    color: wheat; 
+}
+a.name{
+    text-decoration: none;
+}
+.nav ul{
+    display: flex;
+    align-items:flex-start ;
+}
+.nav li{
+    text-transform: capitalize;
+}
+.nav ul li{
+    list-style: none;
+    }
+.nav ul li a{
+    margin: 1px;
+    padding: 5px;
+    text-decoration: none; 
+    color: wheat;   
+    }
+.nav ul li a:hover{
+    background-color: rgb(14, 13, 13);
+    border-radius: 3px;
+    color: white;
+           
+        }    
+.pic{
+    width: 50px;
+    height: auto;
+}
+
+.wrapper{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(54, 45, 45);
+    border-bottom: solid wheat;
+    position: fixed;
+     width: 100%;
+    top: 0;
+    justify-content: space-around;
+    
+}
+
+.nav{
+    /* margin-left: auto; */
+    margin-right: 70px;
+}
+.one p{
+    margin-top: 58px;
+}    
+
+.two{
+    position: fixed;
+    top: 50svh;
+    right: .1rem;
+    background-color: green;
+    
+}
+#one{
+    background-color: white;
+    color: blue;
+    
+}
+#two a{
+   color: wheat;
+   text-decoration: none;
+}

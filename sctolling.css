@@ -1,0 +1,30 @@
+.a{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(241, 238, 238);
+    margin-top: 57px;
+
+}
+.nav .b{
+    display: none;
+       
+}
+.nav .b{
+       height: 100px;
+       }
+
+.nav ul li:hover .b{
+    display: block;
+    position: absolute;
+    margin: 0;
+    margin-left: 0px;
+ 
+    background-color: rgb(54, 45, 45);;
+}
+.nav ul li:hover .b ul{
+    display: block;
+    padding: 10px;
+
+}
+
+   
