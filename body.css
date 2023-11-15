@@ -70,5 +70,14 @@
     }
     .addi.active{
         left: 50%;
-    }   
+    } 
+    #two{
+        font-size: 0.65rem;
+    } 
+    #one{
+        font-size: 0.75rem;
+    } 
+    table{
+        width: 130px;
+    } 
 }
