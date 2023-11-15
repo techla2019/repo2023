@@ -82,3 +82,8 @@ a.name{
    color: wheat;
    text-decoration: none;
 }
+.content{
+    width: 99svw;
+    height: 100svh;
+    background-color: rgb(208, 214, 216);
+}
