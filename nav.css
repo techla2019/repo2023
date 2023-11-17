@@ -15,7 +15,7 @@ body{
     font-size: 1.5rem;
     color: wheat; 
 }
-a.name{
+.logo a {
     text-decoration: none;
 }
 .nav ul{
