@@ -3,11 +3,7 @@
     width: 100%;
     background-color: rgb(241, 238, 238);
     margin-top: 57px;
-    position: sticky;
-    top: 50px;
-    transition: 4s;
-
-}
+    }
 .nav .b{
     display: none;
        
