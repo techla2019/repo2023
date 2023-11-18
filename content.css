@@ -14,5 +14,8 @@
     .title{
         font-size: 1.5rem;
     }
+    .titlecon{
+        height: 40svh;
+    }
 
 }
