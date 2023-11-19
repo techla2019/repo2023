@@ -11,12 +11,23 @@
     background-size: 100%;
     background-repeat: no-repeat;
     color: wheat;
+    
      
 }
 @media(max-width: 900px){
     .title{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
+    .one{
+        font-size: 0.5rem;
+        line-height: 0.65rem;
+        margin-left: -20px;
+       
+    }
+   .one .heard{
+    font-size: 0.8rem;
+   }
+    
     .titlecon{
         height: 60svh;
         /* align-items: start; */
