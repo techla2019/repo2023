@@ -7,7 +7,7 @@
     /* background-color: azure; */
     /* align-items: start; */
     /* justify-content: start; */
-    background-image: url(bac.png); 
+    background-image: url(bac.jpg); 
     background-size: 100%;
     background-repeat: no-repeat;
     color: wheat;
@@ -21,14 +21,14 @@
         height: 60svh;
         /* align-items: start; */
         /* justify-content: start; */
-        background-image: url(bac.png); 
+        background-image: url(bac.jpg); 
         background-size: 100%;
         background-repeat: no-repeat;
         color: wheat;
     }
 
 }
-@media(max-width: 159px){
+@media(max-width: 100px){
     .title{
         font-size: 0.65rem;
     }
@@ -36,7 +36,7 @@
         height: 60svh;
         /* align-items: start; */
         /* justify-content: start; */
-        background-image: url(bac.png); 
+        background-image: url(bac.jpg); 
         background-size: 100% 40%;
         background-repeat: no-repeat;
         color: wheat;
