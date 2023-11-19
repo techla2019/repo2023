@@ -8,7 +8,7 @@
     /* align-items: start; */
     /* justify-content: start; */
     background-image: url(bac.png); 
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
     color: wheat;
      
@@ -18,11 +18,11 @@
         font-size: 1rem;
     }
     .titlecon{
-        height: 40svh;
+        height: 60svh;
         /* align-items: start; */
         /* justify-content: start; */
         background-image: url(bac.png); 
-        background-size: contain;
+        background-size: 100%;
         background-repeat: no-repeat;
         color: wheat;
     }
@@ -32,9 +32,21 @@
     .title{
         font-size: 0.65rem;
     }
+    .titlecon{
+        height: 60svh;
+        /* align-items: start; */
+        /* justify-content: start; */
+        background-image: url(bac.png); 
+        background-size: 100% 40%;
+        background-repeat: no-repeat;
+        color: wheat;
+    }
+    .one{
+        font-size: 0.5rem;
+        line-height: 0.65rem;
+        margin-left: -20px;
+    }
+
 
 }
-.one{
-    line-height: 2rem;
-    font-size: 1.1rem;
-}
+
