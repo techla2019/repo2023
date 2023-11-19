@@ -24,11 +24,12 @@
         background-image: url(bac.jpg); 
         background-size: 100%;
         background-repeat: no-repeat;
+        background-attachment: scroll;
         color: wheat;
     }
 
 }
-@media(max-width: 100px){
+@media only screen and(max-width: 100px){
     .title{
         font-size: 0.65rem;
     }
