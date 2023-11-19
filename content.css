@@ -47,7 +47,14 @@
         line-height: 0.65rem;
         margin-left: -20px;
     }
-
+   .one .heard{
+    font-size: 0.8rem;
+   }
 
 }
 
+.heard{
+    list-style: none;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
