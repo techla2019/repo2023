@@ -14,9 +14,37 @@
     
      
 }
+.heard{
+    list-style: none;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+@media (max-width: 1501px){
+    .title{
+        font-size: 2rem;
+    }
+    .titlecon{
+        height: 110svh;
+        /* align-items: start; */
+        /* justify-content: start; */
+        background-image: url(bac.jpg); 
+        background-size: 100% 40%;
+        background-repeat: no-repeat;
+        color: wheat;
+    }
+    .one{
+        font-size: 0.8rem;
+        line-height: 1rem;
+        margin-left: -7px;
+    }
+   .one .heard{
+    font-size: 1.1rem;
+   }
+
+}
 @media(max-width: 900px){
     .title{
-        font-size: 1.5rem;
+        font-size: 1.1rem;
     }
     .one{
         font-size: 0.5rem;
@@ -29,7 +57,7 @@
    }
     
     .titlecon{
-        height: 60svh;
+        height: 70svh;
         /* align-items: start; */
         /* justify-content: start; */
         background-image: url(bac.jpg); 
@@ -64,8 +92,5 @@
 
 }
 
-.heard{
-    list-style: none;
-    text-decoration: underline;
-    font-size: 1.5rem;
-}
+
+
