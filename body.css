@@ -19,6 +19,21 @@
     width: 100%;
     margin: .1rem;
 }
+.transparent{
+    position: fixed;
+    left: 100%;
+    min-height: 100svh;
+    display: block;
+    width: 100svw;
+    transition: .4s;
+    background-color: rgb(30, 31, 31);
+    filter: opacity(40%);   
+    display: block;
+    margin-top: -5px;
+    border-left: solid 5px wheat;
+    border-top: solid wheat;
+
+}
 .addi{
     position: fixed;
     left: 100%;
@@ -29,7 +44,7 @@
     background-color: rgb(30, 31, 31);
     display: block;
     margin-top: -5px;
-    border-left: solid 5px wheat;
+    /* border-left: solid 5px wheat; */
     border-top: solid wheat;
 }
 .addi a{
@@ -79,6 +94,9 @@
     } 
     table{
         width: 140px;
+    }
+    .transparent.ctive{
+        left: 0%;
     }
     
 }
