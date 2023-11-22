@@ -70,19 +70,21 @@ body{
     position: fixed;
     top: 50svh;
     right: .1rem;
-    background-color: green;
+    background-color: rgb(208, 214, 216);
     
 }
-#one{
-    background-color: white;
-    color: blue;
+#one a{
+    background-color: rgb(208, 214, 216);
+    color: green;
+    font-size: 2rem;
     
 }
 #two a{
-   color: wheat;
+   color: rgb(14, 10, 206);
    text-decoration: none;
-  
+   font-size: 1rem; 
 }
+
 .content{
     width: 99svw;
     margin-right: 0.5svh;
