@@ -31,7 +31,7 @@
         font-size: 2rem;
     }
     .titlecon{
-        height: 47svh;
+        height: 335px;
         /* align-items: start; */
         /* justify-content: start; */
         background-image: url(bac.jpg); 
@@ -64,7 +64,7 @@
    }
     
     .titlecon{
-        height: 29svh;
+        height: 215px;
         /* align-items: start; */
         /* justify-content: start; */
         background-image: url(bac.jpg); 
@@ -80,7 +80,7 @@
         font-size: 0.65rem;
     }
     .titlecon{
-        height: 25svh;
+        height: 190px;
         /* align-items: start; */
         /* justify-content: start; */
         background-image: url(bac.jpg); 
