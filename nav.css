@@ -70,11 +70,11 @@ body{
     position: fixed;
     top: 50svh;
     right: .1rem;
-    background-color: rgb(208, 214, 216);
+    /* background-color: rgb(208, 214, 216); */
     
 }
 #one a{
-    background-color: rgb(208, 214, 216);
+    /* background-color: rgb(208, 214, 216); */
     color: green;
     font-size: 2rem;
     
