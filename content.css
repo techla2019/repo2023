@@ -26,6 +26,24 @@
     
 
 }
+.las{
+    display: flex;
+    height: 341px;
+    width: 85%;
+    background-color: green;
+    margin-left: 4%;
+    border-radius: 5px;
+   
+}
+.las div{
+    width: 400px;
+    border: solid blue;
+    height: auto;
+    margin: 3px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+
 @media (max-width: 1501px){
     .title{
         font-size: 2rem;
@@ -47,8 +65,15 @@
    .one .heard{
     font-size: 1.1rem;
    }
-
+   .las{
+    height: 341px;
+    width: 87%;
+    background-color: green;
+   margin-left: 1.5%;
+   
 }
+   
+   }
 @media(max-width: 900px){
     .title{
         font-size: 1.1rem;
@@ -62,6 +87,14 @@
    .one .heard{
     font-size: 0.8rem;
    }
+   .las{
+    height: 341px;
+    width: 87%;
+    background-color: green;
+   margin-left: 1%;
+   
+}
+   
     
     .titlecon{
         height: 215px;
@@ -96,12 +129,16 @@
    .one .heard{
     font-size: 0.8rem;
    }
-
-}
-.las{
-    height: 100px;
-    width: 33svw;
+   .las{
+    height: 341px;
+    width: 87%;
     background-color: green;
+   margin-left: 1%;
+   
+}
+  
+   
+
 }
 
 
