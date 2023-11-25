@@ -28,20 +28,33 @@
 }
 .las{
     display: flex;
-    height: 341px;
+    justify-content: space-around;
+    align-items: center;
+    height: 5%;
     width: 85%;
     background-color: green;
     margin-left: 4%;
     border-radius: 5px;
+    flex-wrap: wrap;
    
 }
-.las div{
+/* setting of the first flex box below */
+/* .item1{
     width: 400px;
+}
+.item2{
+    width: 400px;
+}
+.item3{
+    width: 400px;
+} */
+.las div{
+    width: 30%;
     border: solid blue;
-    height: auto;
-    margin: 3px;
+    height: 96%;
+    
     border-radius: 5px;
-    flex-wrap: wrap;
+    
 }
 
 @media (max-width: 1501px){
@@ -65,13 +78,7 @@
    .one .heard{
     font-size: 1.1rem;
    }
-   .las{
-    height: 341px;
-    width: 87%;
-    background-color: green;
-   margin-left: 1.5%;
-   
-}
+ 
    
    }
 @media(max-width: 900px){
@@ -87,13 +94,7 @@
    .one .heard{
     font-size: 0.8rem;
    }
-   .las{
-    height: 341px;
-    width: 87%;
-    background-color: green;
-   margin-left: 1%;
-   
-}
+
    
     
     .titlecon{
