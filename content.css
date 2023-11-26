@@ -52,9 +52,7 @@
     width: 30%;
     border: solid blue;
     height: 96%;
-    
-    border-radius: 5px;
-    
+    border-radius: 5px;    
 }
 
 @media (max-width: 1501px){
@@ -81,24 +79,20 @@
  
    
    }
-@media(max-width: 900px){
+@media(max-width: 1100px){
     .title{
-        font-size: 1.1rem;
+        font-size: 1.7rem;
     }
     .one{
-        font-size: 0.5rem;
-        line-height: 0.65rem;
+        font-size: 0.8rem;
+        line-height: 0.95rem;
         margin-left: -20px;
-       
-    }
+        }
    .one .heard{
     font-size: 0.8rem;
    }
-
-   
-    
     .titlecon{
-        height: 215px;
+        height: 310px;
         /* align-items: start; */
         /* justify-content: start; */
         background-image: url(bac.jpg); 
@@ -107,6 +101,24 @@
         background-attachment: scroll;
         color: wheat;
     }
+    .las{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 10%;
+        width: 85%;
+        background-color: green;
+        margin-left: 4%;
+        border-radius: 5px;
+        flex-wrap: wrap;       
+    }
+    .las div{
+        width: 45%;
+        border: solid blue;
+        height: 47%;
+        border-radius: 5px;    
+    }
+    
 
 }
 @media (max-width: 700px){
@@ -131,15 +143,21 @@
     font-size: 0.8rem;
    }
    .las{
-    height: 341px;
-    width: 87%;
-    background-color: green;
-   margin-left: 1%;
-   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15%;
+    width: 85%;
+    background-color: rgb(130, 148, 130);
+    margin-left: 4%;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    gap: 14px;       
 }
-  
-   
-
+.las div{
+    width: 80%;
+    border: solid blue;
+    height: 31%;
+    border-radius: 5px;    
 }
-
-
+}
