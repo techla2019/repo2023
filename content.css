@@ -53,7 +53,14 @@
     /* border: solid blue; */
     height: 96%;
     border-radius: 4px;
-    box-shadow: 1px 1px 3px black;    
+    box-shadow: 1px 1px 3px black; 
+    background-color: rgb(255, 254, 254);   
+}
+.las div:hover{
+    font-size: 1.25rem;
+    color: wheat;
+    width: 29%;
+    box-shadow: 1px 1px 4px  rgb(26, 14, 201); 
 }
 
 @media (max-width: 1501px){
@@ -77,6 +84,12 @@
    .one .heard{
     font-size: 1.1rem;
    }
+   .las div:hover{
+    font-size: 1.25rem;
+    color: wheat;
+    width: 29%;
+    box-shadow: 1px 1px 4px  rgb(26, 14, 201); 
+}
  
    
    }
@@ -120,6 +133,12 @@
         border-radius: 4px;
         box-shadow: 1px 1px 3px black;    
     }
+    .las div:hover{
+        font-size: 1.25rem;
+        color: wheat;
+        width: 44%;
+        box-shadow: 1px 1px 4px  rgb(26, 14, 201); 
+    }
     
 
 }
@@ -162,6 +181,12 @@
     /* border: solid blue; */
     height: 31%;
     border-radius: 4px;
-    box-shadow: 1px 1px 3px black;    
+    box-shadow: 1px 1px 2px  rgb(75, 73, 73);    
+}
+ .las div:hover{
+    font-size: 1.25rem;
+    color: wheat;
+    width: 95%;
+    box-shadow: 1px 1px 4px  rgb(26, 14, 201); 
 }
 }
