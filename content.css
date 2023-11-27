@@ -147,16 +147,16 @@
     justify-content: space-around;
     align-items: center;
     height: 15%;
-    width: 95%;
+    width: 89%;
     background-color: rgb(130, 148, 130);
-    margin-left: 1%;
-    margin-right: 1.5%;
+    margin-left: 0.25%;
+    margin-right: 1%;
     border-radius: 5px;
     flex-wrap: wrap;
     gap: 14px;       
 }
 .las div{
-    width: 93%;
+    width: 91%;
     border: solid blue;
     height: 31%;
     border-radius: 5px;    
