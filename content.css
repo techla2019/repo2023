@@ -49,12 +49,13 @@
     width: 400px;
 } */
 .las div{
-    width: 30%;
+    width: 23%;
     /* border: solid blue; */
     height: 96%;
     border-radius: 4px;
     box-shadow: 1px 1px 3px black; 
-    background-color: rgb(255, 254, 254);   
+    background-color: rgb(255, 254, 254);
+    margin-right: 10px;   
 }
 .las div:hover{
     width: 29.9%;
@@ -63,7 +64,7 @@
 .item1{
     color: blue;
     text-align: center;
-    
+    flex: 1;
 }
 @media (max-width: 1501px){
     .title{
