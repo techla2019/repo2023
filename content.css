@@ -23,12 +23,72 @@
     width: 33%;
     height: 100px;
     background-color: aqua;
-    
-
 }
+/* the start of content formating (computer application packages */
+.three{
+    height: 1%;
+    width: 100%;
+    background-color: white;
+}
+/* first flexbox for computer applications */
+/* the below class four div is a container to hold container of the flexbox items */
+.four{
+    height: 6%;
+    width: 100%;
+    /* background-color: azure; */
+}
+/* class five is the flexbox container */
+.five{
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    /* background-color: beige; */
+    display: flex;
+    gap: 20px;
+}
+/* .five div{} is for the flexbox items*/
+.five div{
+    background-color: white;
+    height: 100%;
+    width: 25%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black;
+}
+/* below is increasing size of one flexbox item */
+#item1{
+    flex-grow: 1;
+}
+/* end of flexbox one styles */
 
-
-
+/* 2nd flexbox for computer applications */
+/* the below class six div is a container to hold container of the flexbox items */
+.six{
+    height: 6%;
+    width: 100%;
+    background-color: rgb(252, 252, 252);
+}
+/* class seven is the flexbox container */
+.seven{
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    background-color: beige;
+    display: flex;
+    gap: 20px;
+}
+/* .seven div{} is for the flexbox items*/
+.seven div{
+    background-color: white;
+    height: 100%;
+    width: 25%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px black;
+}
+/* below is increasing size of one flexbox item */
+#item6{
+    flex-grow: 1;
+}
+/* end of flexbox two styles */
 
 
 
