@@ -9,5 +9,3 @@ const na =document.getElementsByClassName('transparent')[0];
 addd.addEventListener('click', ()=>{
     na.classList.toggle('ctive')
 })
-
-

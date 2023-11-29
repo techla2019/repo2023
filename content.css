@@ -26,103 +26,10 @@
     
 
 }
-.las{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 5%;
-    width: 85%;
-    /* background-color: green; */
-    margin-left: 4%;
-    border-radius: 5px;
-    flex-wrap: wrap;   
-}
 
-.las1{
-    /* display: flex; */
-    justify-content: space-around;
-    align-items: center;
-    height: 5%;
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    /* margin-left: 4%; */
-    /* border-radius: 5px; */
-    flex-wrap: wrap;   
-}
-.las1 #las2{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 95%;
-    width: 85%;
-    /* background-color: green; */
-    margin-left: 4%;
-    /* border-radius: 5px; */
-    flex-wrap: wrap;   
-}
 
-/* setting of the first flex box below */
-/* .item1{
-    width: 400px;
-}
-.item2{
-    width: 400px;
-}
-.item3{
-    width: 400px;
-} */
-.las div{
-    width: 23%;
-    /* border: solid blue; */
-    height: 96%;
-    border-radius: 4px;
-    box-shadow: 1px 1px 3px black; 
-    background-color: rgb(255, 254, 254);
-    margin-right: 10px;   
-}
-.las1 div{
-    width: 23%;
-    /* border: solid blue; */
-    height: 90%;
-    border-radius: 4px;
-    box-shadow: 1px 1px 3px black; 
-    background-color: rgb(255, 255, 255);
-    margin-right: 10px;   
-}
-#item2:hover{
-    width: 22.9%;
-    box-shadow: 1px 1px 4px  rgb(26, 14, 201);
-}
-#item3:hover{
-    width: 22.9%;
-    box-shadow: 1px 1px 4px  rgb(26, 14, 201);
-}
-#item1:hover{
-    /* width: 22.9%; */
-    box-shadow: 1px 1px 4px  rgb(26, 14, 201);
-}
-#item1{
-    flex: 1;
-    color: blue;
-    text-align: center;
-}
-#item5:hover{
-    width: 22.9%;
-    box-shadow: 1px 1px 4px  rgb(26, 14, 201);
-}
-#item4:hover{
-    width: 22.9%;
-    box-shadow: 1px 1px 4px  rgb(26, 14, 201);
-}
-#item6:hover{
-    /* width: 22.9%; */
-    box-shadow: 1px 1px 4px  rgb(26, 14, 201);
-}
-#item6{
-    flex: 1;
-    color: blue;
-    text-align: center;
-}
+
+
 
 
 
@@ -147,23 +54,7 @@
    .one .heard{
     font-size: 1.1rem;
    }
-   #item2:hover{
-    width: 22.9%;
-    box-shadow: 1px 1px 4px  rgb(26, 14, 201);
-}
-#item3:hover{
-    width: 22.9%;
-    box-shadow: 1px 1px 4px  rgb(26, 14, 201);
-}
-#item1:hover{
-    /* width: 22.9%; */
-    box-shadow: 1px 1px 4px  rgb(26, 14, 201);
-}
-#item1{
-    flex: 1;
-    color: blue;
-    text-align: center;
-}
+
    
  
    
@@ -190,50 +81,8 @@
         background-attachment: scroll;
         color: wheat;
     }
-    .las{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        height: 10%;
-        width: 85%;
-        /* background-color: green; */
-        margin-left: 4%;
-        border-radius: 5px;
-        flex-wrap: wrap;       
-    }
-    .la1{
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        height: 10%;
-        width: 85%;
-        /* background-color: green; */
-        margin-left: 4%;
-        border-radius: 5px;
-        flex-wrap: wrap;       
-    }
-    .las div{
-        width: 45%;
-        /* border: solid blue; */
-        height: 47%;
-        border-radius: 4px;
-        box-shadow: 1px 1px 3px black;    
-    }
-    .las1 div{
-        width: 45%;
-        /* border: solid blue; */
-        height: 47%;
-        border-radius: 4px;
-        box-shadow: 1px 1px 3px black;    
-    }
-    .las div:hover{
-        width: 44.9%;
-        box-shadow: 1px 1px 4px  rgb(26, 14, 201); 
-    }
-    .las1 div:hover{
-        width: 44.9%;
-        box-shadow: 1px 1px 4px  rgb(26, 14, 201); 
-    }
+    
+   
     
 
 }
@@ -258,45 +107,5 @@
    .one .heard{
     font-size: 0.8rem;
    }
-   .las{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 15%;
-    width: 96%;
-    /* background-color: rgb(130, 148, 130); */
-    margin-left: 0.25%;
-    margin-right: 1%;
-    border-radius: 5px;
-    flex-wrap: wrap;
-    gap: 14px;       
-}
-.las1{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 15%;
-    width: 96%;
-    /* background-color: rgb(130, 148, 130); */
-    margin-left: 0.25%;
-    margin-right: 1%;
-    border-radius: 5px;
-    flex-wrap: wrap;
-    gap: 14px;       
-}
-.las div{
-    width: 96%;
-    /* border: solid blue; */
-    height: 31%;
-    border-radius: 4px;
-    box-shadow: 1px 1px 2px  rgb(75, 73, 73);    
-}
-.las1 div{
-    width: 96%;
-    /* border: solid blue; */
-    height: 31%;
-    border-radius: 4px;
-    box-shadow: 1px 1px 2px  rgb(75, 73, 73);    
-}
-
+   
 }
