@@ -217,7 +217,7 @@
     .five div{
         background-color: white;
         height: 33.3%;
-        width: 99%;
+        width: 100%;
         border-radius: 5px;
         box-shadow: 1px 1px 3px black;
     }
@@ -242,7 +242,7 @@
 .seven div{
     background-color: white;
     height: 33.3%;
-    width: 99%;
+    width: 100%;
     border-radius: 5px;
     /* box-shadow: 1px 1px 3px black; */
 }
@@ -266,7 +266,7 @@
 .nine div{
     background-color: white;
     height: 33.3%;
-    width: 99%;
+    width: 100%;
     border-radius: 5px;
     /* box-shadow: 1px 1px 3px black; */
 }
