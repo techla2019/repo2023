@@ -118,7 +118,7 @@
     /* box-shadow: 1px 1px 3px black; */
 }
 /* end of flexbox three styles */
-/* class ten is the flexbox container */
+/* class ten is the flexbox container for footer*/
 .ten{
     height: 360px;
     width: 100%;
@@ -303,7 +303,7 @@
     font-size: 0.8rem;
    }
    .four{
-    height: 1445px;
+    height: 1400px;
     width: 100%;
     /* background-color: azure; */
 }
@@ -315,7 +315,6 @@
     /* background-color: beige; */
     display: flex;
     gap: 10px;
-    /* flex-wrap: wrap; */
 }
 /* .five div{} is for the flexbox items*/
 .five div{
@@ -323,22 +322,23 @@
     height: 33.3%;
     width: 100%;
     border-radius: 5px;
-    box-shadow: 1px 1px 3px black;
+    /* box-shadow: 1px 1px 3px black; */
 }
 /* below is increasing size of one flexbox item */
 .six{
-    height: 1445px;
+    height: 1400px;
     width: 100%;
     background-color: rgb(252, 252, 252);
 }
 /* class seven is the flexbox container held in six */
 .seven{
     width: 90%;
-    height: 98.5%;
+    height: 100%;
     margin-left: 5%;
     background-color: beige;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
     gap: 10px;
 }
 /* .seven div{} is for the flexbox items*/
@@ -349,9 +349,8 @@
     border-radius: 5px;
     /* box-shadow: 1px 1px 3px black; */
 }
-/* below is increasing size of one flexbox item */
 .eight{
-    height: 1445px;
+    height: 1400px;
     width: 100%;
     /* background-color: rgb(126, 30, 30); */
 }
@@ -362,19 +361,20 @@
     margin-left: 5%;
     background-color: rgb(180, 207, 171);
     display: flex;
-    flex-wrap: wrap;
     gap: 10px;
 }
 /* .nine div{} is for the flexbox items in class nine*/
 .nine div{
     background-color: white;
-    height: 33.3%;
+    height: 100%;
     width: 100%;
     border-radius: 5px;
     /* box-shadow: 1px 1px 3px black; */
 }
 /* end of flexbox three styles */
-/* class ten is the flexbox container */
+   
+
+/* class ten is the flexbox container for the footer*/
 .ten{
     height: 360px;
     width: 100%;
