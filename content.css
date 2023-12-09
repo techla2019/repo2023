@@ -17,7 +17,9 @@
 .heard{
     list-style: none;
     text-decoration: underline;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    margin-left: 5px;
+    
 }
 .packages{
     width: 33%;
@@ -173,7 +175,7 @@
  
    
    }
-@media(max-width: 800px){
+@media(max-width: 1000px){
     .title{
         font-size: 1.7rem;
     }
@@ -214,12 +216,61 @@
     /* .five div{} is for the flexbox items*/
     .five div{
         background-color: white;
-        height: 49%;
+        height: 33.3%;
         width: 99%;
         border-radius: 5px;
         box-shadow: 1px 1px 3px black;
     }
-   
+    /* below is increasing size of one flexbox item */
+.six{
+    height: 964px;
+    width: 100%;
+    background-color: rgb(252, 252, 252);
+}
+/* class seven is the flexbox container held in six */
+.seven{
+    width: 90%;
+    height: 98.5%;
+    margin-left: 5%;
+    background-color: beige;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    gap: 10px;
+}
+/* .seven div{} is for the flexbox items*/
+.seven div{
+    background-color: white;
+    height: 33.3%;
+    width: 99%;
+    border-radius: 5px;
+    /* box-shadow: 1px 1px 3px black; */
+}
+.eight{
+    height: 964px;
+    width: 100%;
+    /* background-color: rgb(126, 30, 30); */
+}
+/* class nine is the flexbox container held in eight */
+.nine{
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    background-color: rgb(180, 207, 171);
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    gap: 10px;
+}
+/* .nine div{} is for the flexbox items in class nine*/
+.nine div{
+    background-color: white;
+    height: 33.3%;
+    width: 99%;
+    border-radius: 5px;
+    /* box-shadow: 1px 1px 3px black; */
+}
+/* end of flexbox three styles */
     
 
 }
