@@ -173,7 +173,7 @@
  
    
    }
-@media(max-width: 1100px){
+@media(max-width: 800px){
     .title{
         font-size: 1.7rem;
     }
@@ -195,7 +195,30 @@
         background-attachment: scroll;
         color: wheat;
     }
-    
+    .four{
+        height: 964px;
+        width: 100%;
+        /* background-color: azure; */
+    }
+    /* class five is the flexbox container */
+    .five{
+        width: 90%;
+        height: 100%;
+        margin-left: 5%;
+        /* background-color: beige; */
+        display: flex;
+        gap: 10px;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
+    /* .five div{} is for the flexbox items*/
+    .five div{
+        background-color: white;
+        height: 49%;
+        width: 99%;
+        border-radius: 5px;
+        box-shadow: 1px 1px 3px black;
+    }
    
     
 
@@ -241,7 +264,7 @@
     /* background-color: beige; */
     display: flex;
     gap: 10px;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 /* .five div{} is for the flexbox items*/
 .five div{
@@ -260,7 +283,7 @@
 /* class seven is the flexbox container held in six */
 .seven{
     width: 90%;
-    height: 100%;
+    height: 98.5%;
     margin-left: 5%;
     background-color: beige;
     display: flex;
@@ -327,7 +350,7 @@
 }
 .three{
     font-size: 1.1rem;
-    height: 5%;
+    height: 2.5%;
     
 }
 
