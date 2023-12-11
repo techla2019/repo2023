@@ -151,9 +151,110 @@
 }
 /* classes carry their names in screen size styles */
 /* pictures */
-.pic1{
-    width: 400px;
+.pic3{
+    width: 46%;
     height: auto;
+    margin-left: 20%;    
+}
+.b{
+    background-color: azure;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+    color: blue;
+}
+.b1{
+    color: green;
+    font-size: 1.3rem;
+    margin-left: 15px;
+}
+.pic4{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.c1{
+    color: rgb(61, 57, 15);
+    font-size: 1.6rem;
+    margin-left: 15px;
+    font-weight: bold;
+}
+.c2{
+    line-height: 1.6rem;
+    font-size: 1.2rem;
+}
+#item2{
+    background: linear-gradient(to right, wheat,rgb(145, 136, 136));
+}
+.d1{
+    margin-top: 10px;
+    text-align: center;
+    color: blue;
+    font-size: 1.2rem;
+}
+.d2{
+    color: blue;
+    list-style: none;
+}
+.pic5{
+    width: 100%;
+    height: auto;
+}
+.pic6{
+    width: 100%;
+    height: auto;
+}
+.e1{
+    margin-top: 20px;
+    text-align: center;
+    color: green;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    }
+.e2{
+    list-style: none;
+    line-height: 3rem;
+    font-size: 2rem;
+
+}    
+.pic7{
+    width: 98%;
+    margin-left: 1%;
+    height: 15%;
+}
+.f1{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+.pic8{
+    width: 96%;
+    margin-left: 2%;
+    border-radius: 5px;
+}
+.pic9{
+    width: 96%;
+    margin-left: 2%;
+    border-radius: 5px;
+}
+.g1{
+    font-size: 2rem;
+    margin-left: 20px;
+    color: rgb(99, 122, 143);
+    margin-top: 20px;
+}
+.g2{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    line-height: 1.3rem;
+}
+.h1{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
 }
 @media (max-width: 1499px){
     .title{
