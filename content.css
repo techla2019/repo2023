@@ -256,6 +256,37 @@
     margin-top: 20px;
     text-decoration: underline;
 }
+.h2{
+    font-size: 1.1rem;
+    margin-top: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    line-height: 1.7rem;
+}
+#item7{
+    background: linear-gradient(to right, wheat, white);
+}
+.i1{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.i2{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.i3{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.j1{
+    height: 100%;
+    width: 68%;
+    margin-left: 10%;
+}
 @media (max-width: 1499px){
     .title{
         font-size: 2rem;
@@ -478,27 +509,166 @@
     /* box-shadow: 1px 1px 3px black; */
 }
 /* end of flexbox three styles */
-   
+.pic3{
+    width: 46%;
+    height: auto;
+    margin-left: 20%;    
+}
+.b{
+    background-color: azure;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+    color: blue;
+}
+.b1{
+    color: green;
+    font-size: 1.3rem;
+    margin-left: 15px;
+}
+.pic4{
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+}
+.c1{
+    color: rgb(61, 57, 15);
+    font-size: 1.3rem;
+    margin-left: 15px;
+    font-weight: bold;
+}
+.c2{
+    line-height: 1.2rem;
+    font-size: 1rem;
+}
+#item2{
+    background: linear-gradient(to right, wheat,rgb(145, 136, 136));
+}
+.d1{
+    margin-top: 10px;
+    text-align: center;
+    color: blue;
+    font-size: 1.2rem;
+}
+.d2{
+    color: blue;
+    list-style: none;
+}
+.pic5{
+    width: 100%;
+    height: 30%;
+}
+.pic6{
+    width: 100%;
+    height: auto;
+}
+.e1{
+    margin-top: 20px;
+    text-align: center;
+    color: green;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    }
+.e2{
+    list-style: none;
+    line-height: 3rem;
+    font-size: 1.2rem;
+
+}    
+.pic7{
+    width: 98%;
+    margin-left: 1%;
+    height: 19%;
+}
+.f1{
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    color: blue;
+}
+.pic8{
+    width: 96%;
+    height: 37%;
+    margin-left: 2%;
+    border-radius: 5px;
+}
+.pic9{
+    width: 96%;
+    height: 37%;
+    margin-left: 2%;
+    border-radius: 5px;
+}
+.g1{
+    font-size: 1.5rem;
+    margin-left: 20px;
+    color: rgb(99, 122, 143);
+    margin-top: 20px;
+}
+.g2{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    line-height: 1rem;
+}
+.h1{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+.h2{
+    font-size: 1rem;
+    margin-top: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    line-height: 1.4rem;
+}
+#item7{
+    background: linear-gradient(to right, wheat, white);
+}
+.i1{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.i2{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.i3{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.j1{
+    height: 100%;
+    width: 68%;
+    margin-left: 10%;
+}
 
 /* class ten is the flexbox container for the footer*/
 .ten{
     height: 360px;
     width: 100%;
-    background-color: rgb(14, 13, 13);
+    background-color: rgb(99, 93, 93);
 }
 /* class eleven is the flexbox container held in ten */
+
 .eleven{
     width: 90%;
     height: 100%;
     margin-left: 5%;
-    background-color: rgb(14, 13, 13);
+    background-color: gray;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
 /* .nine div{} is for the flexbox items in class nine*/
 .eleven div{
-    background-color: rgb(14, 13, 13);
+    background-color: gray;
     height: 25%;
     width: 33.3%;
     border-radius: 5px;
