@@ -670,9 +670,10 @@
 .eleven div{
     background-color: gray;
     height: 25%;
-    width: 33.3%;
+    width: 100%;
     border-radius: 5px;
     color: wheat;
+    margin-left: 10px;
     /* box-shadow: 1px 1px 3px black; */
 }
 .three{
