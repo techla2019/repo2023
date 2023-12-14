@@ -151,10 +151,12 @@
 }
 /* classes carry their names in screen size styles */
 /* pictures */
-.pic3{
-    width: 46%;
+.pic31{
+    width: 96%;
     height: auto;
-    margin-left: 20%;    
+    margin-left: 2%;
+    margin-top: 5%;
+    border-radius: 20px;    
 }
 .b{
     background-color: azure;
@@ -253,7 +255,7 @@
 .h1{
     font-size: 2rem;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 20%;
     text-decoration: underline;
 }
 .h2{
@@ -408,10 +410,176 @@
     /* box-shadow: 1px 1px 3px black; */
 }
 /* end of flexbox three styles */
+/* start of contents */
+ #item1{
+    display: flex;
+    align-items: center;
+    
+}
+.pic31{
+    width: 32%;
+    height: 40%;
+    
+        
+}
+.b{
+    background-color: azure;
+    line-height: 1.1rem;
+    font-size: 0.8rem;
+    color: blue;
+}
+
+.b1{
+    color: green;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+#item2{
+    display: flex;
+    align-items: center;
+}
+.pic4{
+    width: 40%;
+    height: 75%;
+    border-radius: 10px;
+}
+
+.c1{
+    color: rgb(61, 57, 15);
+    font-size: 1.4rem;
+    margin-left: 15px;
+    font-weight: bold;
+}
+.c2{
+    line-height: 1.2rem;
+    font-size: 1rem;
+}
+#item2{
+    background: linear-gradient(to right, wheat,rgb(145, 136, 136));
+}
+#item3{
+    display: flex;
+    align-items: center;
+    
+}
+.d1{
+    margin-top: 10px;
+    text-align: center;
+    color: blue;
+    font-size: 1rem;
+}
+.d2{
+    color: blue;
+    list-style: none;
+}
+.pic5{
+    width: 33%;
+    height: 30%;
+}
+.pic6{
+    width: 31%;
+    height: 30%;
+}
+#item4{
+    display: flex;
+    align-items: center;
+}
+.e1{
+    margin-top: 20px;
+    text-align: center;
+    color: green;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    }
+.e2{
+    list-style: none;
+    line-height: 2rem;
+    font-size: 1rem;
     
 
+}    
+.pic7{
+    width: 50%;
+    margin-left: 1%;
+    height: 29%;
 }
-@media (max-width: 600px){
+#item5{
+    display: flex;
+    align-items: center;
+}
+.f1{
+    margin-top: 5px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    color: blue;
+}
+.pic8{
+    width: 38%;
+    height: 37%;
+    margin-left: 2%;
+    border-radius: 5px;
+}
+.pic9{
+    width: 33%;
+    height: 37%;
+    margin-right: 2%;
+    border-radius: 5px;
+}
+
+.g1{
+    font-size: 1.5rem;
+    margin-left: 20px;
+    color: rgb(99, 122, 143);
+    margin-top: 20px;
+}
+.g2{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    line-height: 1rem;
+}
+.h1{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+.h2{
+    font-size: 1rem;
+    margin-top: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    line-height: 1.4rem;
+}
+#item7{
+    background: linear-gradient(to right, wheat, white);
+}
+.i1{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.i2{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.i3{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.j1{
+    height: 100%;
+    width: 20%;
+    margin-left: 10%;
+}
+    
+} 
+@media only screen and (max-width: 600px){
     .content{
         /* width: 99svw; */
         /* margin-right: 0.5svh; */
@@ -509,10 +677,15 @@
     /* box-shadow: 1px 1px 3px black; */
 }
 /* end of flexbox three styles */
-.pic3{
-    width: 46%;
+#item1{
+    display: block;
+}
+.pic31{
+    width: 96%;
     height: auto;
-    margin-left: 20%;    
+    margin-left: 2%;
+    margin-top: 5%;
+    border-radius: 20px;    
 }
 .b{
     background-color: azure;
@@ -524,6 +697,9 @@
     color: green;
     font-size: 1.3rem;
     margin-left: 15px;
+}
+#item2{
+    display: block;
 }
 .pic4{
     width: 100%;
@@ -543,6 +719,9 @@
 #item2{
     background: linear-gradient(to right, wheat,rgb(145, 136, 136));
 }
+#item3{
+    display: block;
+}
 .d1{
     margin-top: 10px;
     text-align: center;
@@ -561,6 +740,9 @@
     width: 100%;
     height: auto;
 }
+#item4{
+    display: block;
+}
 .e1{
     margin-top: 20px;
     text-align: center;
@@ -578,6 +760,9 @@
     width: 98%;
     margin-left: 1%;
     height: 19%;
+}
+#item5{
+    display: block;
 }
 .f1{
     margin-top: 5px;
@@ -599,6 +784,9 @@
     margin-left: 2%;
     border-radius: 5px;
 }
+#item6{
+    display: block;
+}
 .g1{
     font-size: 1.5rem;
     margin-left: 20px;
@@ -610,6 +798,9 @@
     margin-right: 20px;
     text-align: justify;
     line-height: 1rem;
+}
+#item7{
+    display: block;
 }
 .h1{
     font-size: 2rem;
@@ -627,6 +818,9 @@
 }
 #item7{
     background: linear-gradient(to right, wheat, white);
+}
+#item8{
+    display: block;
 }
 .i1{
     text-align: center;
