@@ -1,13 +1,13 @@
 .title{
     font-size: 3rem;
 }
-/*.titlecon{
+.titlecon{
     width: 100%;
     /* height: 60svh; */
     /* background-color: azure; */
     /* align-items: start; */
     /* justify-content: start; */
-   /* background-image: url(bac.jpg); 
+    background-image: url(bac.jpg); 
     background-size: 100% 100%; 
     background-repeat: no-repeat;
     color: wheat;
@@ -27,7 +27,7 @@
     background-color: aqua;
 }
 /* the start of content formating (computer application packages */
-/*.three{
+.three{
     height: 3%;
     width: 100%;
     background-color: white;
@@ -37,13 +37,13 @@
 }
 /* first flexbox for computer applications */
 /* the below class four div is a container to hold container of the flexbox items */
-/*.four{
+.four{
     height: 480px;
     width: 100%;
     /* background-color: azure; */
 }
 /* class five is the flexbox container */
-/*.five{
+.five{
     width: 90%;
     height: 100%;
     margin-left: 5%;
@@ -52,7 +52,7 @@
     gap: 20px;
 }
 /* .five div{} is for the flexbox items*/
-/*.five div{
+.five div{
     background-color: white;
     height: 100%;
     width: 25%;
@@ -60,20 +60,20 @@
     /* box-shadow: 1px 1px 3px black; */
 }
 /* below is increasing size of one flexbox item */
-/*#item1{
+#item1{
     flex-grow: 1;
 }
 /* end of flexbox one styles */
 
 /* 2nd flexbox for computer applications */
 /* the below class six div is a container to hold container of the flexbox items */
-./*six{
+.six{
     height: 480px;
     width: 100%;
     background-color: rgb(252, 252, 252);
 }
 /* class seven is the flexbox container held in six */
-/*.seven{
+.seven{
     width: 90%;
     height: 100%;
     margin-left: 5%;
@@ -83,7 +83,7 @@
 }
 /* .seven div{} is for the flexbox items*/
 .seven div{
-/*    background-color: white;
+    background-color: white;
     height: 100%;
     width: 25%;
     border-radius: 5px;
@@ -102,7 +102,7 @@
 }
 /* class nine is the flexbox container held in eight */
 .nine{
-/*    width: 90%;
+    width: 90%;
     height: 100%;
     margin-left: 5%;
     background-color: rgb(180, 207, 171);
@@ -111,7 +111,7 @@
 }
 /* .nine div{} is for the flexbox items in class nine*/
 .nine div{
-/*    background-color: white;
+    background-color: white;
     height: 100%;
     width: 33.3%;
     border-radius: 5px;
@@ -125,7 +125,7 @@
     background-color: rgb(14, 13, 13);
 }
 /* class eleven is the flexbox container held in ten */
-./*eleven{
+.eleven{
     width: 90%;
     height: 100%;
     margin-left: 5%;
@@ -134,7 +134,7 @@
     gap: 20px;
 }
 /* .nine div{} is for the flexbox items in class nine*/
-./*eleven div{
+.eleven div{
     background-color: rgb(14, 13, 13);
     height: 25%;
     width: 33.3%;
