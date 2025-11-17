@@ -291,7 +291,7 @@
 }
 @media (max-width: 1499px){
     .title{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
     .titlecon{
         height: 335px;
@@ -316,7 +316,7 @@
    }
 @media(max-width: 1000px){
     .title{
-        font-size: 1.7rem;
+        font-size: 1.27rem;
     }
     .one{
         font-size: 0.8rem;
@@ -588,7 +588,7 @@
         /* background-color: rgb(208, 214, 216); */
     }
     .title{
-        font-size: 0.65rem;
+        font-size: 0.49rem;
     }
     .titlecon{
         height: 190px;
