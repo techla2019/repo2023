@@ -17,7 +17,7 @@
 .heard{
     list-style: none;
     text-decoration: underline;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-left: 10px;
     
 }
@@ -161,7 +161,7 @@
 .b{
     background-color: azure;
     line-height: 1.5rem;
-    font-size: 0.5rem;
+    font-size: 1.2rem;
     color: blue;
 }
 .b1{
