@@ -1,0 +1,16 @@
+.one {
+  background: linear-gradient(to right, rgb(116, 111, 102), rgb(141, 120, 80));
+  width: 80%;
+  height: 97dvh;
+  margin: auto;
+
+}
+.two{
+    color: white;
+}
+.wrapper{
+    /*color: red;*/
+    margin-left: 5%;
+    
+    
+}
