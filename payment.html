@@ -1,233 +1,339 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta description="computer college and driving school">
-    <title>Techla College</title>
-    <link rel="stylesheet" href="namalize.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link rel="stylesheet" href="sctolling.css">
-    <link rel="stylesheet" href="regi.css">
-    <link rel="stylesheet" href="body.css">
-    <link rel="stylesheet" href="content.css">
-    <script src="nav.js" defer></script>
+    <title>Fee Structure - Techla Driving School & Computer College</title>
+    <style>
+        /* Reset and Base Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f3f7f4;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.04);
+            border-top: 6px solid #0f4c81; /* Blue top accent */
+        }
+
+        /* Header Styling */
+        header {
+            text-align: center;
+            border-bottom: 3px solid #1e5631; /* Green divider */
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            color: #0f4c81; /* Primary Blue */
+            font-size: 28px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            color: #555;
+            font-size: 14px;
+        }
+
+        .contact-info {
+            margin-top: 10px;
+            font-weight: bold;
+            color: #222;
+        }
+
+        /* Section Typography */
+        h2 {
+            color: #0f4c81; /* Primary Blue */
+            border-left: 5px solid #1e5631; /* Green Left Border */
+            padding-left: 10px;
+            margin: 35px 0 15px 0;
+            font-size: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+
+        h3 {
+            color: #1e5631; /* Accent Green */
+            margin: 20px 0 10px 0;
+            font-size: 16px;
+        }
+
+        /* Table Styling */
+        .table-responsive {
+            overflow-x: auto;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 10px;
+            background: #fff;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #e2ebd9;
+        }
+
+        th {
+            background-color: #f4f9f4; /* Subtle green-tinted background */
+            color: #1e5631; /* Green headers */
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 13px;
+            letter-spacing: 0.5px;
+        }
+
+        tr:hover {
+            background-color: #f7fafc;
+        }
+
+        .price-col {
+            font-weight: bold;
+            color: #0f4c81; /* Blue price highlight */
+        }
+
+        /* Callout Box / Notice Styling */
+        .notice-box {
+            background-color: #f0f6ff; /* Gentle blue tint */
+            border-left: 4px solid #0f4c81; /* Blue accent border */
+            padding: 15px 20px;
+            margin: 15px 0;
+            border-radius: 0 4px 4px 0;
+            font-size: 14px;
+        }
+
+        .notice-box ul {
+            margin-top: 8px;
+            margin-left: 20px;
+        }
+
+        .notice-box li {
+            margin-bottom: 4px;
+        }
+
+        /* List Items styling */
+        .admin-list {
+            list-style: none;
+            padding-left: 5px;
+        }
+
+        .admin-list li {
+            padding: 8px 0;
+            border-bottom: 1px dashed #c8dcd0;
+            display: flex;
+            justify-content: space-between;
+            max-width: 400px;
+        }
+
+        .admin-list span {
+            font-weight: bold;
+            color: #1e5631;
+        }
+
+        /* Footer Notes */
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #c8dcd0;
+            font-size: 14px;
+            color: #555;
+        }
+
+        /* Mobile Adjustments */
+        @media (max-width: 768px) {
+            body { padding: 10px; }
+            .container { padding: 20px; }
+            header h1 { font-size: 21px; }
+            th, td { padding: 10px; font-size: 14px; }
+        }
+    </style>
 </head>
 <body>
-    <div class="wrapper">
-        <div class="logo">
-            <img src="logo.png" class="pic">&nbsp;&nbsp;
-            <span class="stik"></span>&nbsp;&nbsp;
-            <a href="index.html"><div class="name">Techla Driving School and Computer College</div></a>            
-        </div>
-        <div class="nav">
-            
-            <ul>
-                
-                <li><a href="index.html">home</a></li>
-                <li><a href="payment.html">Techla Price</a></li>
-                <li><a href="#">services</a>
-                    <!-- <ul class="b">
-                        <li><a href="#">Printing & Photocopy</a></li>
-                        <li><a href="#">Computer Lessons</a></li>
-                        <li><a href="#">Driving smulation</a></li>
-                    </ul>-->
-                </li>
-                <li><a href="regi.html">Registration</a></li>
-            </ul>
-        </div>
-        <div class="humbaga">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        
-       </div>
-       
-    </div>
-    <div class="transparent"></div>
-    <div class="addi" >
-        <ul>
-        <li><a href="index.html">home</a></li>
-        <li><a href="payment.html">Techla Price</a></li>
-        <li><a href="#">services</a></li>
-        <li><a href="regi.html">registration</a></li>
-    </ul>
 
-    </div>
-    <div class="two">
-        <table width="200px" >
-            <tr>
-                <th id="one">Whatsapp<a href="https://wa.me/254729910678"> <i class="fa-brands fa-whatsapp"></i></a>  </th> 
-            </tr>
-            
-            <tr>
-            <td id="two" style="text-align: center;"><a href="tel:254729910678">Talk to us &nbsp;<i class="fa-solid fa-phone"></i>&nbsp;</a></tr>
-        
+<div class="container">
+    
+    <header>
+        <h1>Techla Driving School & Computer College</h1>
+        <p>Kimende Township, Along Nairobi-Naivasha Highway (Near Equity Bank at the highway junction)</p>
+        <p class="contact-info">Contact: +254 729 910 678 | Email: Techlacollege@gmail.com</p>
+        <p style="margin-top: 5px; color: #888;">Academic Year: 2026</p>
+    </header>
+
+    <!-- SECTION 1: DRIVING SCHOOL -->
+    <h2>1. Driving School Department (NTSA Curriculum)</h2>
+    <div class="table-responsive">
+        <table>
+            <thead>
+                <tr>
+                    <th>Vehicle Category</th>
+                    <th>Licence Class</th>
+                    <th>Duration</th>
+                    <th>Tuition Fee (KES)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Motorbike / Three-Wheeler</td>
+                    <td>Class A (A1, A2, A3)</td>
+                    <td>2–3 Weeks</td>
+                    <td class="price-col">6,500</td>
+                </tr>
+                <tr>
+                    <td><strong>Light Vehicle (Manual/Automatic)</strong></td>
+                    <td>Class B (B1, B2)</td>
+                    <td>3–4 Weeks</td>
+                    <td class="price-col" style="color: #1e5631;">10,300</td>
+                </tr>
+                <tr>
+                    <td>Commercial / Heavy Vehicle</td>
+                    <td>Class C (C1, C)</td>
+                    <td>4 Weeks</td>
+                    <td class="price-col">14,000</td>
+                </tr>
+            </tbody>
         </table>
     </div>
 
-    <div class="one">
-       
+    <div class="notice-box">
+        <strong>Important Notice on NTSA Government Fees:</strong><br>
+        The school tuition fees above cover internal training only. Every student must pay a total of <strong>Standard NTSA fees (KES 5,500)</strong> directly to the government via eCitizen. This is split exactly as follows:
+        <ul>
+            <li>Provisional Driving License (PDL): <strong>KES 650</strong></li>
+            <li>Test Booking / Examination Fee: <strong>KES 1,050</strong></li>
+            <li>Interim Driving License: <strong>KES 750</strong></li>
+            <li>Smart Driving Card: <strong>KES 3,050</strong></li>
+        </ul>
     </div>
-    <!-- the below dive is for setting small screen nav bar -->
-    <div class="a"></div>
-    <div class="content">
-        <div class="titlecon">
-           <br> <h1 class="title">
-               &nbsp;&nbsp; TECHLA DRIVING SCHOOL AND COMPUTER COLLEGE </br> &nbsp;&nbsp;&nbsp;KIMENDE
-            </h1>
-            <li class="heard">We offer the following</li>
-            <ul class="one">
-                
-                <li>Class A, Class B, and Class C Driving Licence</li>
-                <li>Basic Computer Applications</li>
-                <li>Quickbooks</li>
-                <li>DTP (Publisher, Corel Draw, Photoshop)</li>
-                <li>HTML5 & CSS3</li>
-                <li>SASS (scss)</li>
-                <li>Java Script</li>
-                <li>TypeScript</li>
-                <li>React Js (SPA)</li>
-                <li>Hardware and Software Installation & Configaration</li>
-                
-            </ul>
-        </div>
-        
-<!-- the end of header contents -->
-        &nbsp;&nbsp;
-        <div class="b" widith="80%">
-         <table  width="70%", border="1px">
-            <th>
-                <tr>
-                    <td>Mortocycles</td>
-                    <td>Class A1</td>
-                    <td>Class A2</td>
-                    <td>Class A3</td>
-                </tr>
-            </th>
-            <tr>
-                <td></td>
-                <td>Kshs 6000/=</td>
-                <td>Kshs 6000/=</td>
-                <td>Kshs 9000/=</td>
-           </tr>
-         </table>&nbsp;&nbsp;&nbsp;
 
-          <table  width="70%", border="1px">
-            <th>
+    <!-- SECTION 2: COMPUTER COLLEGE -->
+    <h2>2. Information Technology & Software Department</h2>
+    
+    <h3>Computer Applications & Accounting</h3>
+    <div class="table-responsive">
+        <table>
+            <thead>
                 <tr>
-                    <td>Cars / saloon</td>
-                    <td>Class B1</td>
-                    <td>Class B2</td>
-                    <td>Class B proffesional</td>
+                    <th>Course Name</th>
+                    <th>Modules Covered</th>
+                    <th>Duration</th>
+                    <th>Total Fee (KES)</th>
                 </tr>
-            </th>
-            <tr>
-                <td></td>
-                <td>Kshs 10,300/=</td>
-                <td>Kshs 10,300/=</td>
-                <td>Kshs 15,300/=</td>
-           </tr>
-         </table>&nbsp;&nbsp;&nbsp;
-          <table  width="70%", border="1px">
-            <th>
+            </thead>
+            <tbody>
                 <tr>
-                    <td>Commercial</td>
-                    <td>Class C</td>
-                    <td>Class C1</td>
-                    <td>Class E</td>
+                    <td>Basic Computer Applications</td>
+                    <td>Introduction to computer, Windows 10/11, Ubuntu, Typing, Word, Excel, Access, PowerPoint, Publisher, Internet & AI</td>
+                    <td>1–2 Months</td>
+                    <td class="price-col">5000</td>
                 </tr>
-            </th>
-            <tr>
-                <td></td>
-                <td>Kshs 7000/=</td>
-                <td>Kshs 10,000/=</td>
-                <td>Kshs 20,000/=</td>
-           </tr>
-         </table>&nbsp;&nbsp;&nbsp;
-          <table  width="70%", border="1px">
-            <th>
                 <tr>
-                    <td>NTSA Money</td>
-                    <td>PDL</td>
-                    <td>EXAM</td>
-                    <td>INTERIM</td>
-                    <td>DL</td>
+                    <td>Accounting Software</td>
+                    <td>QuickBooks Online & Desktop, Financial Reporting, Tax Setup</td>
+                    <td>3–4 Weeks</td>
+                    <td class="price-col">6,000</td>
                 </tr>
-            </th>
-            <tr>
-                <td></td>
-                <td>Kshs 650/=</td>
-                <td>Kshs 1,050/=</td>
-                <td>Kshs 750/=</td>
-                <td>Kshs 3,050/=</td>
-           </tr>
-         </table>&nbsp;&nbsp;&nbsp;
-        
-        <h3>TECHNOLOGY</h3>
-        <table  width="70%", border="1px">
-            <th>
-                <tr>
-                    <td>Computer Packages</td>
-                    <td>spreadsheet and database</td>
-                    <td>Text Editors</td>
-                    <td>Publication</td>
-                </tr>
-            </th>
-            <tr>
-                <td>Kshs 5,000/=</td>
-                <td>Kshs 4,000/=</td>
-                <td>Kshs 3,000=</td>
-                <td>Kshs 4,000/=</td>
-           </tr>
-         </table>&nbsp;&nbsp;&nbsp;
-         <table  width="70%", border="1px">
-            <th>
-                <tr>
-                    <td>HTML & CSS</td>
-                    <td>JAVASCRIPT</td>
-                    <td>GIT & GITHUB</td>
-                    <td>DOMAIN, WEB HOSTING & DNS</td>
-                </tr>
-            </th>
-            <tr>
-                <td>Kshs 20,000/=</td>
-                <td>Kshs 30,000/=</td>
-                <td>Kshs 5,000=</td>
-                <td>Kshs 4,000/=</td>
-           </tr>
-         </table>
-         </div>
-
-
-<!--4th flebox for the footer area  -->
-<div class="ten">
-    <div class="eleven">
-        <div id="item10" class="item16">Call us on<br /><a href="tel:254729910678">Talk to us &nbsp;<i class="fa-solid fa-phone"></i>&nbsp;</a> </div>
-        <div id="item11" class="item16">Whtasapp Message <br /><a href="https://wa.me/254729910678">On +254729910678 <i class="fa-brands fa-whatsapp"></i></a></div>
-        <div id="item12" class="item16">E-mail us <a href="mailto:techlacollege@gmail.com"><br />Techlacollege@gmail.com</a></div>
-        <!-- <div id="item13" class="item16">Footer four</div>
-        <div id="item14" class="item16">Footer five</div>
-        <div id="item15" class="item16">Footer six</div> -->
+            </tbody>
+        </table>
     </div>
+
+    <h3>Digital Design & Technical Support</h3>
+    <div class="table-responsive">
+        <table>
+            <thead>
+                <tr>
+                    <th>Course Name</th>
+                    <th>Tools / Skills Covered</th>
+                    <th>Duration</th>
+                    <th>Total Fee (KES)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Desktop Publishing (DTP)</td>
+                    <td>Ms Publisher, CorelDRAW, Adobe Photoshop, InDesign</td>
+                    <td>1 Month</td>
+                    <td class="price-col">7,000</td>
+                </tr>
+                <tr>
+                    <td>Hardware & Software Engineering</td>
+                    <td>PC Assembly, OS Installation, Troubleshooting, Upgrades</td>
+                    <td>1 Month</td>
+                    <td class="price-col">8,500</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h3>Software Development & Web Engineering</h3>
+    <div class="table-responsive">
+        <table>
+            <thead>
+                <tr>
+                    <th>Track</th>
+                    <th>Stack / Languages Covered</th>
+                    <th>Duration</th>
+                    <th>Total Fee (KES)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Frontend Web Foundation</td>
+                    <td>HTML5, CSS3, SASS (SCSS), Git & GitHub</td>
+                    <td>2 Months</td>
+                    <td class="price-col">12,000</td>
+                </tr>
+                <tr>
+                    <td>Advanced Web Development</td>
+                    <td>JavaScript, TypeScript, React.js (SPA)</td>
+                    <td>2 Months</td>
+                    <td class="price-col">15,000</td>
+                </tr>
+                <tr style="background-color: #f4fbf7;">
+                    <td><strong>Full Web Dev Package</strong></td>
+                    <td>Complete stack from Foundation to React.js</td>
+                    <td>4 Months</td>
+                    <td class="price-col" style="color: #1e5631;">25,000 <small style="color: #555;">(Save 2,000)</small></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- SECTION 3: ADMINISTRATIVE FEES -->
+    <h2>3. Mandatory Administrative Fees</h2>
+    <p style="font-size: 14px; color: #666; margin-bottom: 10px;">These non-refundable charges apply to all newly registering students joining the college department.</p>
+    <ul class="admin-list">
+        <li>Admission / Registration Fee: <span>KES 200</span></li>
+        <li>Student ID Card: <span>KES -</span></li>
+        <li>Internal Exam & Certificate Fee: <span>KES -</span></li>
+    </ul>
+
+    <!-- FOOTER & PAYMENT TERMS -->
+    <footer>
+        <p><strong>Mode of Payment:</strong> Payments should be made directly to the institution's official channels (M-Pesa Till / Paybill or Bank Account) provided at the admissions desk.</p>
+        <p style="margin-top: 10px;"><em>* Flexible Payment Plan: For courses lasting more than one month, students are permitted to pay in two installments: 60% upon admission and 40% before mid-term evaluations.</em></p>
+    </footer>
 
 </div>
-    </div>
-    
-    
-    
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
